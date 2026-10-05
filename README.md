@@ -10,22 +10,22 @@ From any project, install with the [`npx skills`](https://github.com/antfu/skill
 
 ```bash
 # install all skills from this repo
-npx skills add <owner>/skills
+npx skills add makmu/skills
 
 # install one skill by name (quote multi-word names)
-npx skills add <owner>/skills --skill my-skill
+npx skills add makmu/skills --skill my-skill
 
 # see what's available without installing
-npx skills add <owner>/skills --list
+npx skills add makmu/skills --list
 
 # install globally instead of per-project
-npx skills add <owner>/skills -g
+npx skills add makmu/skills -g
 
 # target a specific agent (default: auto-detected)
-npx skills add <owner>/skills -a opencode
+npx skills add makmu/skills -a opencode
 ```
 
-Replace `<owner>` with the GitHub owner of this repo. Full repo URLs, git URLs, and local paths (`npx skills add ./skills`) also work as sources.
+Full repo URLs, git URLs, and local paths (`npx skills add ./skills`) also work as sources.
 
 Other commands: `npx skills list` (installed skills), `npx skills find <query>` (search the ecosystem), `npx skills check` / `npx skills update`.
 
